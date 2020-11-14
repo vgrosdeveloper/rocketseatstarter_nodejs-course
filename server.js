@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 mongoose.connect(
-'mongodb://localhost:27017/node_course',
+'mongodb://localhost:27017/rocketseatstarter_nodejs-course',
 {useNewUrlParser: true, useUnifiedTopology: true},
 );
 
